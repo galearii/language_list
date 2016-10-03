@@ -1,5 +1,5 @@
-# Language List
-A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retrieve only common languages.
+# [Language List](https://github.com/scsmith/language_list) Tailored for Project Dill
+A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retrieve only common languages, with `iso_639_1: zh` changed to refer to simplified Chinese and a non-standard `iso_639_1: zh-t` added to refer to traditional Chinese in languages.yml.
 
 [![Build Status](https://travis-ci.org/scsmith/language_list.svg?branch=master)](https://travis-ci.org/scsmith/language_list)
 
@@ -7,7 +7,7 @@ A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retriev
     # Get an array of LanguageList::LanguageInfo classes
     all_languages = LanguageList::ALL_LANGUAGES
     common_languages = LanguageList::COMMON_LANGUAGES
-    
+
     # Finding a language based on its ISO-639-1 or ISO-639-3 code or
     # name
     german  = LanguageList::LanguageInfo.find('German')
